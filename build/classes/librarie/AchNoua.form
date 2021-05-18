@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="name" type="java.lang.String" value="AchNouaFrame" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="912" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="AchNouaPanel" min="-2" pref="912" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="526" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="AchNouaPanel" alignment="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="AchNouaPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="f0" green="f7" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="ANouaProdNLabel" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="ANouaCantLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ANouaProdELabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ANouaCostLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="ANouaProdLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                          <Component id="prod" min="-2" pref="262" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="ANouaCodLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                          <Component id="codp" min="-2" pref="155" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="ANouaCatLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                          <Component id="cat" min="-2" pref="155" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="nrf" max="32767" attributes="0"/>
+                                          <Component id="dis" alignment="0" pref="235" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="ANouaPretLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                          <Component id="pret" min="-2" pref="155" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="ANouaRedLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                          <Component id="red" min="-2" pref="155" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="cost" alignment="0" pref="92" max="32767" attributes="0"/>
+                                          <Component id="cant" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                          <Component id="ANouaBackButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="ANouaDisLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="ANouaNrfLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="ANouaDenLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ANouaSubcatLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="prod1" max="32767" attributes="0"/>
+                                      <Component id="subcat" pref="214" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="ANouaUMLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="ANouaTVALabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="tva" min="-2" pref="34" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="ANouaEcoLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace pref="29" max="32767" attributes="0"/>
+                                          <Component id="eco" min="-2" pref="64" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="um" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="ANouaAddButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="178" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ANouaNrfLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="nrf" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="ANouaBackButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ANouaDisLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dis" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ANouaProdELabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ANouaProdLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="prod" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ANouaProdNLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ANouaCodLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ANouaDenLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="codp" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="prod1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ANouaCatLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ANouaSubcatLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="subcat" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ANouaPretLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ANouaUMLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pret" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="um" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ANouaRedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ANouaTVALabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ANouaEcoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="red" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tva" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="eco" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="62" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ANouaCantLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cant" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ANouaCostLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cost" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="ANouaAddButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="ANouaNrfLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nr. factur&#x103;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaDisLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Distribuitor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaProdLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Produs"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaCantLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cantitate"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaCostLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cost"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="ANouaProdELabel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f7" red="ff" type="rgb"/>
+            </Property>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" value="Produs existent"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="ANouaProdNLabel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f0" green="f7" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Produs Nou"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaCodLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cod produs"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaDenLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Denumire"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaCatLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Categorie"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaSubcatLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Subcategorie"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaPretLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pre&#x21b; v&#xe2;nzare"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaUMLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Unitate de m&#x103;sur&#x103;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaRedLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Reducere"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaTVALabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TVA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ANouaEcoLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Taxa ecologica"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="nrf">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="dis">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="prod">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="codp">
+        </Component>
+        <Component class="javax.swing.JTextField" name="prod1">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cat">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="C&#x103;r&#x21b;i"/>
+                <StringItem index="1" value="Papet&#x103;rie"/>
+                <StringItem index="2" value="Birotic&#x103;"/>
+                <StringItem index="3" value="Filme"/>
+                <StringItem index="4" value="Jocuri"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="subcat">
+        </Component>
+        <Component class="javax.swing.JTextField" name="pret">
+        </Component>
+        <Component class="javax.swing.JTextField" name="um">
+        </Component>
+        <Component class="javax.swing.JTextField" name="red">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tva">
+        </Component>
+        <Component class="javax.swing.JTextField" name="eco">
+        </Component>
+        <Component class="javax.swing.JTextField" name="cant">
+        </Component>
+        <Component class="javax.swing.JTextField" name="cost">
+        </Component>
+        <Component class="javax.swing.JButton" name="ANouaAddButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xce;nregistreaz&#x103; achizi&#x21b;ia"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ANouaAddButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ANouaBackButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xce;napoi"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ANouaBackButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
